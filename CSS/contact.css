@@ -43,6 +43,16 @@
     /* ---Banner AREA---- */
 
 /* CONTACT PAGE */
+
+/* Different*/
+section
+{    width: 90%;
+    background-color: whitesmoke;
+    max-width: 1900px;
+    margin: auto;
+    text-align: center;
+}
+/* YEA */
 .contact-info{
 display: flex;
 width: 100%;
@@ -99,7 +109,78 @@ transition: 0.3s linear;
 max-height: 40px;
 opacity: 1;
 }
+/* New */
+fieldset {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-top: .5em;
+    margin: center;
+    
+}
+legend {
+    color: orangered;
+    font-weight: bold;
+    font-size: 85%;
+}
+label {
+    /* float: left; */
+    width: 10em;
+    text-align: right;
+}
+input, select {
+    width: 15em;
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+}
+input:required, input[required] {
+	border: 3px solid orangered;
+}
+input:valid {
+	border: 1px solid black;
+}
+input:invalid {
+	box-shadow: none;
+}
+br {
+    clear: both;
+}
+#buttons input {
+	width: 10em;
+}
+figure {
+	border: 2px solid black;
+	
+}
+figcaption {
+	color: #800000;
+}
 
+table {
+	border-collapse: collapse;
+	
+}
+thead, tfoot {
+	border-top: 2px solid #800000;
+	border-bottom: 2px solid #800000;
+	}
+th, td {
+	padding: .2em .7em;
+	text-align: left;
+	
+}
+tfoot th, tfoot td {
+	text-align: right;
+	font-weight: bold;
+	
+}
+.border_bottom {
+	border-bottom: 2px solid #800000;
+}
+.right {
+	text-align: right;
+}
+
+/* END */
 
 @media screen and (max-width:800px) {
 .contact-info{

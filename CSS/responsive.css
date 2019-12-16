@@ -11,8 +11,11 @@
     .site-banner{
         text-align: center;
     }
+    html{
+        font-family: 'Times New Roman', Times, serif;
+    }
         .header_area .main-menu .nav-item .nav-link{
-            font: normal 500 15px/2px var(--roboto);
+            font: normal
         
             padding: 15px;
             color: var(--title-color);
@@ -118,6 +121,11 @@
         display: inline-block;
         margin-left: 3em;
     }
+    .oll{
+        display: none;
+        
+    }
+    
     /* END OF TOOL PAGES */
     /* Team html */
     .tabs-controls{
@@ -141,4 +149,7 @@
         font-size: 10px;
     }
     /* End of html Team */
+    .foo{
+        display: none;
+    }
 }
