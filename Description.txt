@@ -1,8 +1,0 @@
-MAIN purpose of the website - To showcase my photography skills
-
-FEATURE LIST
-HOME - The main content goes here. Includes banner image. Mini gallery. Footer. Introduction of the developer and the photographer.
-GALLERY - All the photos will be showcased in this page. It can also be categorized.  
-TOOLS - The page will also showcased the purchasable lenses, tripod, camera, Camera bag, ETC. Link to Amazon. 
-TEAM - My team page will have my friends description. Who they are and why they are part of the team. They can be either a MODEL of the photoshoot or my editor for photos.
-CONTACT  - for the audience to contact me, call me. 
