@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Thor Manogura</title>
+    <link rel="shortcut icon" type="image/png" href="img/favicon/fav.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+
+    <!-- Bootstrap CSS File -->
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+
+    <!-- font awesome icons -->
+    <link rel="stylesheet" href="CSS/all.min.css">
+
+    <!-- Magnific Poppup CSS file -->
+    <link rel="stylesheet" href="vendor/Magnific-Popup/dist/magnific-popup.css">
+
+    <!-- Custom CSS  -->
+    <link rel="stylesheet" href="CSS/contact.css">
+    
+    <!-- Responsive CSS file -->
+    <link rel="stylesheet" href="CSS/responsive.css">
+
+    <!-- Scripts -->
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/additional-methods.min.js"></script>
+    <script src="js/contact.js"></script>
+
+</head>
+<body>
+
+    <!-- -----------------Start of Header---------------- -->
+    <header class="header_area">
+        <div class="main-menu">
+            <div class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#"><!--LOGO--><img src="img/thorlogo.png" alt="logo" width="85%"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="mr-auto"></div>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="About.html">Gallery</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="#">Gallery</a>
+                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="Tools.html">Tools</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="#">Pages</a>
+                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="Team.html">Team</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- -------------------END OF HEADER---------------- -->
+<!-- ---------------Main AREA------------- -->
+<main class="site-main">
+
+    <div class="contact-info">
+        <div class="card">
+            <i class="card-icon far fa-envelope"></i>
+            <p>manogura_thor@yahoo.com</p>
+        </div>
+    
+        <div class="card">
+            <i class="card-icon fas fa-phone"></i>
+            <p>(+1) 414-544-9696</p>
+        </div>
+    
+        <div class="card">
+            <i class="card-icon fas fa-map-marker-alt"></i>
+            <p>Wisconsin, Milwaukee , USA</p>
+        </div>
+    </div>
+
+<!-- CONTACT FORM -->
+<!-- <section class="12">
+    <h1>Contact Us</h1>
+    <form action="sendmail.php" method="post" name="contact_form" id="contact_form">
+
+        <fieldset>
+            <legend>Your Contact Information</legend>
+            <label for="first_name">First Name:</label>
+            <input type="text" name="first_name" id="first_name" autofocus><br>
+            <label for="last_name">Last Name:</label>
+            <input type="text" name="last_name" id="last_name"><br>
+            <label for="email">Email Address:</label>
+            <input type="email" name="email" id="email"><br>
+            <label for="verify">Verify Email:</label>
+            <input type="email" name="verify" id="verify"><br>
+            <label for="phone">Phone Number:</label>
+            <input type="tel" name="phone" id="phone" placeholder="999-999-9999"><br>
+        </fieldset>
+        <fieldset>
+            <legend>Message Information</legend>
+            <label for="today_date">Today's Date:</label>
+            <input type="date" name="today_date" id="today_date" placeholder="99/99/9999"><br>
+            <label for="subject">Subject:</label>
+            <input type="text" name="subject" id="subject"><br>
+            <label for="Message">Message:</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+        </fieldset>
+        <fieldset id="buttons">
+            <legend>Submit Your Email Message</legend>
+            <label>&nbsp;</label>
+            <input type="submit" id="submit" value="Send">
+            <input type="reset" id="reset" value="Reset"><br>
+        </fieldset>
+
+
+    </form>
+</section> -->
+    <br>
+    <br>
+    <br>
+    <br>
+<section class="12">
+<h1 class=" te">Email Me</h1>
+<form action="submitted.html" method="get"
+    name="registration_form" id="registration_form">
+    <fieldset>
+        <legend>Email information</legend>
+        <label for="email">E-Mail:</label>
+        <input type="email" name="email" id="email" autofocus required><br>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" required
+               pattern="[a-zA-Z0-9]{6,}"
+               placeholder="At least 6 letters or numbers" ><br>
+        <label for="verify">Verify Password:</label>
+        <input type="password" name="verify" id="verify" required><br>
+    </fieldset>
+    <fieldset>
+        <legend>Contact Information</legend>
+        <label for="first_name">First Name:</label>
+        <input type="text" name="first_name" id="first_name" required><br>
+        <label for="last_name">Last Name:</label>
+        <input type="text" name="last_name" id="last_name" required><br>
+        <label for="address">Address:</label>
+        <input type="text" name="address" id="address"><br>
+        <label for="city">City:</label>
+        <input type="text" name="city" id="city" required><br>
+        <label for="state">State:</label>
+        <input type="text" name="state" id="state" required maxlength="2" placeholder="2-character code"><br>
+        <label for="zip">ZIP Code:</label>
+        <input type="text" name="zip" id="zip" required placeholder="5 or 9 digits" 
+               pattern="^\d{5}(-\d{4})?$" title="Either 5 or 9 digits"><br>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" name="phone" id="phone" placeholder="999-999-9999" 
+               pattern="\d{3}[\-]\d{3}[\-]\d{4}" title="Must be 999-999-999 format"><br>
+        </fieldset>
+    <fieldset>
+        <!-- <legend> Information</legend>
+        <label for="membership_type">Membership Type:</label>
+        <select name="membership_type" id="membership_type">
+            <option value="j">Junior</option>
+            <option value="r">Regular</option>            
+            <option value="c">Charter</option>
+        </select><br> -->
+        <!-- <label for="starting_date">Starting Date:</label>
+        <input type="date" name="starting_date" id="starting_date" required><br>
+        <label for="tickets">Tickets for Guests:</label>
+        <input type="number" name="tickets" id="tickets" value="2" min="1" max="4" placeholder="from 1 to 4"><br>
+        </fieldset>
+        <fieldset id="buttons"> -->
+        <legend>Submit Your Contact</legend>
+        <label>&nbsp;</label>
+        <input type="submit" id="submit" value="Submit">
+        <input type="reset" id="reset" value="Reset Fields"><br>
+    </fieldset>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+</form>
+</figure>
+</section>
+<!-- END OF CONTACT FORM -->
+</main>
+<footer>
+    <h5>Thor Manogura &copy; 2019</h5>
+    <div class="s-m">
+        <a href="https://www.facebook.com/Thorix11"><img
+                src="https://img.icons8.com/doodle/48/000000/facebook-new.png"></a>
+        <a href="https://www.instagram.com/?hl=en"><img
+                src="https://img.icons8.com/doodle/48/000000/instagram--v3.png"></a>
+        <a href="https://twitter.com/ManoguraThor"><img
+                src="https://img.icons8.com/doodle/48/000000/twitter-circled.png"></a>
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700i" rel="stylesheet">
+    </div>
+</footer>
+<!-- -------------------End of Main AREA ----------->
+
+    <!--  Jquery js file  -->
+    <script src="./js/jquery.3.4.1.js"></script>
+    
+    <!--  Bootstrap js file  -->
+    <script src="./js/bootstrap.min.js"></script>
+    
+    <!--  isotope js library  -->
+    <script src="./vendor/isotope/isotope.min.js"></script>
+    
+    <!--  Magnific popup script file  -->
+    <script src="./vendor/Magnific-Popup/dist/jquery.magnific-popup.min.js"></script>
+    
+    <!--  Owl-carousel js file  -->
+    <script src="./vendor/owl-carousel/js/owl.carousel.min.js"></script>
+    
+    <!--  custom js file  -->
+    <script src="./js/main.js"></script>
+
+</body>
+</html>
