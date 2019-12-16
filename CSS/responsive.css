@@ -1,0 +1,144 @@
+
+
+/* if the view point is equal to 340px or less than that */
+@media only screen and (max-width:450px){
+
+   
+    .header_area .main-menu .navbar, .header_area .main-menu .navbar .navbar-brand{
+        padding: 1%;
+        margin:0 auto;
+    }
+    .site-banner{
+        text-align: center;
+    }
+        .header_area .main-menu .nav-item .nav-link{
+            font: normal 500 15px/2px var(--roboto);
+        
+            padding: 15px;
+            color: var(--title-color);
+        }
+        
+        .navbar-brand img{
+            width: 80%;
+            padding: 12px;
+            margin: 0;
+        }
+        .navbar-light .navbar-toggler{
+        width: 70%;
+        margin: 0 auto;
+        margin-left: 3em;
+        }
+        .navbar-collapse{
+            
+            text-align: center;
+            display: block;
+        }
+        
+        .site-main .site-banner .banner-image > img{
+            padding: 2px;
+            width: 10rem;
+            padding-top: 2em;
+            
+        
+        }
+        .button{
+            display: block;
+            padding: 10px;
+            margin: 0 auto;
+        }
+        .title-text{
+            display: none;
+        }
+        .site-main .site-banner .site-title h1{
+            font-size: 28pt;
+            padding-top: 1em;
+        }
+        .site-main .site-banner .site-title h4{
+            font-size: 14pt;
+
+           
+        }
+        .button.secondary-button{
+        padding: 0;
+        font-size: 10pt;
+        }
+        #thor{
+            font-size: 25pt;
+            display: block;
+            padding: 1em;
+            
+        }
+        #thorimg{
+    display: none;
+        }
+   .site-main .about-area{
+        padding: 0;
+       
+    }
+    .site-main .about-area .about-title h2 > span{
+        display: block;
+        font: normal bold 29px/40px;
+        letter-spacing: 10px;
+        text-align: center;
+    }
+    .button.primary-button{
+    margin-bottom: 2em;
+    }
+    .button-group{
+        padding: 0;
+        margin: 0 auto;
+    }
+    .button{
+        
+        margin: 0 auto
+    
+    }
+.button-group button{
+        background-color: white;
+        padding: none;
+        display: block;
+        font-size: 10px;
+        
+        }
+    .site-main .project-area .button-group button + button{
+        padding: 0;
+      
+    }
+    .title-h1{
+        font-size: 30px;
+        text-align: center;
+    }
+    .row{
+        margin: 0;
+    }
+    /* Tool Pages */
+    .wrapper{
+        width: 1000px;
+        margin: 5% auto;
+        display: inline-block;
+        margin-left: 3em;
+    }
+    /* END OF TOOL PAGES */
+    /* Team html */
+    .tabs-controls{
+        background-color: teal;
+        display: inline-block;
+        width: 50%;
+        padding: 0;
+        margin: auto;
+        margin-left: 6em;
+    }
+    .tabs-controls a{
+        font-size: 10px;
+        margin: 0;
+    }
+    .card{
+        background-color: teal;
+        width: 50%;
+        margin-left: 3em;
+    }
+    .card p{
+        font-size: 10px;
+    }
+    /* End of html Team */
+}

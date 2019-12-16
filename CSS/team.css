@@ -1,0 +1,323 @@
+
+
+    /* Import fonts from fonts file */
+    @import url(fonts.css);
+
+
+/* CSS variables */
+@import url(partials/variables.css);
+
+/* Global CSS */
+@import url(partials/_global.css);
+
+    /* start nav */
+    .header_area .main-menu .navbar .navbar-brand{
+        padding: 0 2rem 0 5rem;
+    }
+    .header_area .main-menu .navbar{
+        padding: 1rem 20rem;
+    }
+    .header_area .main-menu .nav-item .nav-link{
+        font: normal 500 15px/2px var(--roboto);
+        text-transform: uppercase;
+        /* padding: 1em; */
+        color: var(--title-color);
+    }
+    .header_area .main-menu .navbar-nav .active a{
+        color: tomato;
+    }
+    .header_area .main-menu .navbar-nav a:hover{
+        color: blue;
+        transform: scale(1.3);
+        cursor: pointer;
+        
+        
+        }
+    /* end of nav */
+
+    #thor{
+        font-family: 'Angelic Bonques Free Script';
+        font-size: 4rem;
+        font-weight: bold;
+    }
+    /* ---Banner AREA---- */
+
+.site-main .site-banner{
+    color: whitesmoke;
+    background: url(../img/background-img/wood.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    .site-main .site-banner .site-title h3{
+        padding-top: 35%;
+        font-weight: 500;
+    }
+    .site-main .site-banner .site-title h3::after{
+        content: "";
+        height: 2px;
+        width: 18vw;
+        background-color: white;
+        display: inline-block;
+        margin-left: 5%;
+        transform: translateY(-10px);
+    }
+    .site-main .site-banner .site-title h1{
+        font-size:3rem;
+    }
+    .site-main .site-banner .site-title h4{
+        font-size: 1.5rem;
+    }
+    .site-main .site-banner .banner-image > img{
+        padding: 7rem;
+        width: 40rem;
+        
+    }
+    .title-text{
+        font-family: 'Agustina';
+    }
+    /* ---End of Banner---- */
+
+    #thorimg{
+        width: 30vw;
+        margin-left: 10em;
+        
+    }
+    /* About me page */
+    .about-area{
+        color: whitesmoke;
+        background: url(../img/background-img/wood.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .site-main.about-area{
+        padding: 8rem 5rem;
+
+    }
+    .site-main .about-area .about-title h2 > span{
+        display: block;
+        font: normal bold 49px/60px;
+        letter-spacing: 21px;
+    }
+    .site-main .about-area .about-title .paragraph > p{
+        padding: .4rem 0;
+    }
+
+
+
+
+    /* End of About */
+/* Tools PAGE */
+body{
+background: whitesmoke;
+font-family: cursive;
+margin: auto 30px;
+
+}
+header h1{
+    margin: 2px 1px;
+    padding: 1em;
+}
+ul{
+    margin: 0;
+}
+li{
+    padding:5px;
+}
+#todo-list-container{
+    margin-top: 20px ;
+}
+#completed-list{
+    list-style: none;
+}
+#completed-list{
+    text-decoration: line-through;
+}
+
+
+/* End of Tools Pages */
+
+/* TEAM PAGE */
+
+.page {
+    background-image: url("../img/background-img/wood.jpg");
+width: 100vw;
+height: 120vh;
+/* min-height: 700px; */
+overflow: hidden;
+    margin-left: -25px;
+    margin-top: 45px;
+
+}
+.tabs-controls {
+position: relative;
+z-index: 10;
+display: flex;
+justify-content: center;
+align-items: stretch;
+width: 100%;
+max-width: 800px;
+margin: 0 auto;
+box-sizing: border-box;
+padding: 50px 0 100px;
+list-style-type: none;
+}
+.tabs-controls-link {
+position: relative;
+display: block;
+padding: 16px 32px;
+font-size: 18px;
+font-weight: 700;
+color: white;
+text-transform: uppercase;
+text-decoration: none;
+}
+.tabs-controls-link:after {
+position: absolute;
+left: 0;
+right: 0;
+bottom: 0;
+display: block;
+width: 0;
+height: 4px;
+background-color: white;
+border-radius: 2px;
+margin: auto;
+content: '';
+transition: width 0.4s;
+}
+.tabs-controls-link-active:after {
+width: 100%;
+}
+.cards-container {
+position: relative;
+z-index: 1;
+width: 570px;
+height: calc(100vh - 205px);
+margin: 0 auto;
+}
+.card {
+position: absolute;
+width: 570px;
+height: 500px;
+background-color: #edebd7;
+border: 1px solid #423e37;
+box-shadow: 9px 11px 3px 0px rgba(0, 0, 0, 0.2);
+box-sizing: border-box;
+padding: 40px;
+transition: transform 0.3s, opacity 0.2s;
+}
+.card.hidden {
+z-index: 100;
+background-color: #fff;
+color: #fff;
+opacity: 0;
+transition: color 0.5s, background-color 0.5s, transform 1s, opacity 0.2s 0.4s;
+}
+.card.hidden h1 {
+color: #fff;
+transition: color 0.5s;
+}
+.card.hidden:nth-of-type(1) {
+transform: rotate(-61deg) translateX(101%) translateY(-42%) scale(0.7) skewX(3deg) skewY(5deg);
+}
+.card.hidden:nth-of-type(2) {
+transform: rotate(-20deg) translateX(101%) translateY(-30%) scale(0.6) skewX(6deg) skewY(12deg);
+}
+.card.hidden:nth-of-type(3) {
+transform: rotate(-89deg) translateX(101%) translateY(-41%) scale(1) skewX(4deg) skewY(1deg);
+}
+.card.hidden:nth-of-type(4) {
+transform: rotate(-88deg) translateX(101%) translateY(-26%) scale(0.5) skewX(9deg) skewY(11deg);
+}
+.card.hidden:nth-of-type(5) {
+transform: rotate(-80deg) translateX(101%) translateY(-40%) scale(0.6) skewX(12deg) skewY(5deg);
+}
+.card.hidden:nth-of-type(6) {
+transform: rotate(-85deg) translateX(101%) translateY(-21%) scale(0.3) skewX(12deg) skewY(7deg);
+}
+.card:nth-of-type(1) {
+z-index: 5;
+transform: translateX(0px) translateY(0px);
+}
+.card:nth-of-type(2) {
+z-index: 4;
+transform: translateX(10px) translateY(10px);
+}
+.card:nth-of-type(3) {
+z-index: 3;
+transform: translateX(20px) translateY(20px);
+}
+.card:nth-of-type(4) {
+z-index: 2;
+transform: translateX(30px) translateY(30px);
+}
+.card:nth-of-type(5) {
+z-index: 1;
+transform: translateX(40px) translateY(40px);
+}
+.card:nth-of-type(6) {
+z-index: 0;
+transform: translateX(50px) translateY(50px);
+}
+
+        .social .fa{
+        background-image: url("../img/background-img/black-texture-background.jpg");
+            background-size: cover;
+            width: 35px;
+            height: 35px;
+            color: white;
+            text-align: center;
+            line-height: 35px;
+            margin-top: 20px;
+        }
+
+/* END OF TEAM PAGE */
+
+    /* Start of Project */
+.site-main .project-area{
+    padding: 4rem 0;
+    color: black;
+    
+}
+.site-main .project-area .button-group button{
+    background: transparent;
+    border: none;
+    font: normal 500 16px/130px var(--roboto);
+    text-transform: uppercase;
+    color: black;
+}
+    .site-main .project-area .button-group button + button{
+        padding-left: 3rem;
+        
+    }
+    .site-main .project-area .button-group button:hover{
+        cursor: pointer;
+        color: tomato;
+    }
+    .site-main .project-area .grid .our-project > .title h4{
+        font: normal 700 25px/12px var(--roboto);
+    }
+
+    .site-main .project-area .grid .our-project .img a:hover img{
+filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+    }
+
+
+    /* End of Project */
+
+footer{
+    text-align: center;
+    width: 100%;
+    height: 5vh;
+    padding: 5em;
+    color: black;
+}
+footer h5{
+    font-family: 'Rock Salt', cursive;
+    font-size: 15pt;
+
+}
+footer img:hover{
+    transform: scale(1.5);
+    transition: ease;
+}

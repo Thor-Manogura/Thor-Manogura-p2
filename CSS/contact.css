@@ -1,0 +1,132 @@
+
+
+    /* Import fonts from fonts file */
+    @import url(fonts.css);
+
+
+/* CSS variables */
+@import url(partials/variables.css);
+
+/* Global CSS */
+@import url(partials/_global.css);
+
+    /* start nav */
+    .header_area .main-menu .navbar .navbar-brand{
+        padding: 0 2rem 0 5rem;
+    }
+    .header_area .main-menu .navbar{
+        padding: 1rem 20rem;
+    }
+    .header_area .main-menu .nav-item .nav-link{
+        font: normal 500 15px/2px var(--roboto);
+        text-transform: uppercase;
+        /* padding: 1em; */
+        color: var(--title-color);
+    }
+    .header_area .main-menu .navbar-nav .active a{
+        color: tomato;
+    }
+    .header_area .main-menu .navbar-nav a:hover{
+        color: blue;
+        transform: scale(1.3);
+        cursor: pointer;
+        
+        
+        }
+    /* end of nav */
+
+    #thor{
+        font-family: 'Angelic Bonques Free Script';
+        font-size: 4rem;
+        font-weight: bold;
+    }
+    /* ---Banner AREA---- */
+
+/* CONTACT PAGE */
+.contact-info{
+display: flex;
+width: 100%;
+max-width: 1200px;
+align-items: center;
+justify-content: center;
+padding: 0 20px;
+margin: auto;
+padding: 2em;
+}
+
+
+.card{
+background: #2f3542;
+padding: 0 20px;
+margin: 0 10px;
+width: calc(33% - 20px);
+height: 200px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color: #fff;
+cursor: pointer;
+}
+
+.card-icon{
+font-size: 28px;
+background: #ff6348;
+width: 60px;
+height: 60px;
+text-align: center;
+line-height: 60px !important;
+border-radius: 50%;
+transition: 0.3s linear;
+}
+
+.card:hover .card-icon{
+background: none;
+color: #ff6348;
+transform: scale(1.6);
+}
+
+.card p{
+margin-top: 20px;
+font-weight: 300;
+letter-spacing: 2px;
+max-height: 0;
+opacity: 0;
+transition: 0.3s linear;
+}
+
+.card:hover p{
+max-height: 40px;
+opacity: 1;
+}
+
+
+@media screen and (max-width:800px) {
+.contact-info{
+    flex-direction: column;
+}
+.card{
+    width: 100%;
+    max-width: 300px;
+    margin: 10px 0;
+}
+}
+
+/* END OF CONTACT PAGE */
+
+footer{
+    text-align: center;
+    width: 100%;
+    height: 5vh;
+    padding: 5em;
+    color: black;
+}
+footer h5{
+    font-family: 'Rock Salt', cursive;
+    font-size: 15pt;
+
+}
+footer img:hover{
+    transform: scale(1.5);
+    transition: ease;
+}
